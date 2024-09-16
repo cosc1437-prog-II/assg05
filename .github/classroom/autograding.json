@@ -8,10 +8,10 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 15
     },
     {
-      "name": "Task 1 test averageNValuesInFile() ",
+      "name": "Task 1 test volumeOfFootball() ",
       "setup": "make",
       "run": "./test --list-test-names-only [task1] | grep . && ./test [task1]",
       "input": "",
@@ -21,24 +21,54 @@
       "points": 25
     },
     {
-      "name": "Task 2 test averageAllValuesInFile()",
+      "name": "Task 2 test myIsdigit()",
       "setup": "make",
       "run": "./test --list-test-names-only [task2] | grep . && ./test [task2]",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 15
     },
     {
-      "name": "Task 3 test processPayrollRaises()",
+      "name": "Task 3 test reuse of isdigit()",
       "setup": "make",
       "run": "./test --list-test-names-only [task3] | grep . && ./test [task3]",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 15
+    },
+    {
+      "name": "Task 4 test myabs()",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task4] | grep . && ./test [task4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Task 5 test fahrenheitToCelsius()",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task5] | grep . && ./test [task5]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Task 6 Extra Credit test celsiusToFahrenheit()",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task6] | grep . && ./test [task6]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
     }
   ]
 }
